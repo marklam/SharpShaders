@@ -23,7 +23,7 @@ module Math =
     type Color4 with
         member m.ToBgra() =
             let bgra = Color4(m.Blue,m.Green,m.Red,m.Alpha)
-            bgra.ToArgb()
+            bgra.ToRgba()
 
     [<Struct>]
     type float2 =
